@@ -1,0 +1,253 @@
+/* side -bar -css  */
+
+
+.album-art>img{
+    width:12vw !important;
+}
+.side-bar{
+    justify-content: space-between;
+
+}
+.nav-item{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.side-bar-content {
+    justify-content: space-between !important;
+    margin-top: 10px !important;
+}
+.playlist-section-album>p{
+    margin-left: 15px;
+    color: var(--gray-text);
+}
+.logo-flex>p{
+    color: var(--gray-text);
+    font-size: 16px !important ;
+}
+
+.logo-flex>p:hover{
+  color: white;
+}
+.spotify-logo{
+padding-left: 8px !important;
+}
+.spotify-logo>img{
+  height: 2rem !important;
+  
+}
+
+.logo-flex>img{
+    opacity: 0.7;
+}
+.logo-flex>img:hover {
+    opacity: 1;
+}
+
+/* main-album*/
+.main-album{
+    
+ 
+    overflow-y: auto;
+    height: 100vh;
+    width: 100%;
+}
+/* main-album-upper-section */
+.main-album-pop-right-now{
+    background: linear-gradient(to bottom,#8DABA4,#2d2d2d);
+    height: 33vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 20px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+
+}
+.pop-img{
+ height: 100%;
+ flex: 1;
+ display: contents;
+display: flex;
+ align-items: flex-end;
+}
+.pop-img>img{
+ width: 100%;
+   
+}
+.pop-content{
+    flex: 6;
+}
+.pop-content>p{
+    font-size: 11px;
+    font-family:serif;
+    color: rgb(162, 158, 158);
+    font-weight: 100;
+}
+.pop-content>h1{
+    font-size: 4vw;
+    font-weight: bolder;
+    color: white;
+}
+.pop-content>p>span{
+    font-weight: bold;
+    color: white;
+}
+
+/* =------------= */
+
+/* song list*/
+.play-like-row{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+}
+.play-like-button{
+        height: 5.1vh;
+        gap: 20px;
+        margin-left: 20px;
+        padding-top: 10px;
+}
+.play-like-row>div>img:hover{
+    scale: 1.1;
+}
+
+
+/* song list */
+.song-list{
+    margin-inline: 20px;
+    
+   
+}
+.song-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 25px;
+}
+.song-detail:hover{
+    background-color: #2d2d2d;
+}
+
+.song-detail>div>p{
+           
+            font-size: 16px;
+            font-weight: 300;
+            color: gray; 
+   
+}
+.poster-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+#dot{
+    color: white;
+}
+.green-notice {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #1ED760;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 954px) and (min-width: 670px) {
+    /* ---------------------*/
+    /* side-bar */
+    .logo-flex>p{
+        font-size: 16px !important;
+    }
+    ..spotify-logo>img {
+        height: 2rem !important;
+    }
+
+        /* song list */
+    .pop-img{
+        flex: 2;
+    }
+}
+@media only screen and (max-width: 671px) and (min-width: 579px) {
+    /* --------------------*/
+    /* side-bar */
+    .side-bar{
+        width: 40vw !important;
+    }
+    .album-art>img {
+        width: 30vw !important;
+    }
+    .pop-img{
+        flex: 2.5;
+    }
+    .date-added{
+        display: none;
+    }
+    .main-album-pop-right-now{
+        height: 25vh;
+    }
+
+
+    /* song list */
+}
+
+@media only screen and (max-width: 578px) and (min-width: 310px) {
+    /* --------------------- */
+    /* side-bar */
+    .side-bar{
+        width: 43vw !important;
+    }
+    .album-art>img{
+        width: 35vw !important;
+    }
+    .logo-flex>p {
+            font-size: 9px !important;
+     }
+    .spotify-logo>img {
+    height: 1.2rem !important;
+    padding-left: 0px !important;
+    }
+    .playlist-section-album>p {
+      margin-left: 5px !important;
+         
+     }
+
+     /* song list */
+
+    .pop-img{
+        flex: 2.5;
+    }
+    .date-added{
+        display: none;
+    }
+    .album-name{
+        display: none;
+    }
+    .main-album-pop-right-now{
+        height: 25vh;
+    }
+    .song-list {
+    margin-inline: 5px;
+    }
+    .song-detail{
+    gap: 3px;
+    }
+   .poster-name>img{
+    width: 20%;
+    }
+    .singer-name>h5{
+    font-size: 10px;
+     }
+    .singer-name>h6{
+    font-size: 8px;
+     }
+
+
+    }

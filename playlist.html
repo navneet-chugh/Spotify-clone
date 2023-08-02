@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liked Songs | Spotify</title>
+    <link rel="icon" type="Image/x-icon"
+    href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEL0lEQVR4AWIgFsjdSeKRu51kKXcL0Hs5ANmxhFH4xbY1q2fbtm3PnWe/mIXYtm3bto21Ylur71QmqcndmTWqTt3p7t/qXvN/Y585DCzle7Ogb+3x/Z8RZj4h2gwLzoDiygi2UDDX2PvjEWPPjwkg2QMJ0ByGdjY8JgZXyrLigHBfEYR8auw11yD0qhRkElfhXYWMjwMirMKZVV4JL7qg+KyEZQfIOIOsjgHhVoUMKYe4JpgEc6IE5BASkTkuIMxXPW3l5AzCiWLKFWAE0XWPhPKksEOYlBvKHZHoYERahVJ7H2p+lqGcZ78mTqPrI//QV6ZiV7sQXwAxWL0OzLB7vTe57AZPD9YDwQSwBP7d0B7NSMdAuwL+ik7vLScj37vZawxehTCYWVDGiLIK14z7KZ9/5GpF/1zQiLCKQ1MF2gcUSQxqB5Yj56RXi0L3wzXlEb6SEM9xes3he9kfYFYpI9T3FLLb4vG+VF1FRCnIEoQfIqaXw4CLGh62cUU5D2T9LPgCpj/5bUgKmrHfmPX/rH9E0VvyHqWVjYifCjoNCYr5NR/0QdC2QPYJh56D8Dym8P/vP145DIOhL5iN9ZEqTpDoUVRJ4BIg/+YOtRoy/7ENKnKjyw7+np/9Xg6+BNZ/3aLCykDlJthGHAax8ETzGyel4LzL0Eqy74TxKHmHFi8WEGYVYT3EScfZQBmw1EPpSV1AELUAX+GR0nA3CCKkAZyFsHc/4X+ZPVPjFiwiCoedBslwu4Mmsz7nVwcLlILNbrcah38HRGbuEsGgEjJKabW74GI6k3GdlwFXOPw+IPrnQnhbC5oXwI+gIULb4GV70EKKwBcofQK6KgGRPxVwGFMWGV9At1IR8TbAOwXxnM1HQCjfCl1SGvVxCrqd0A/HoG9QXqNWlJVPhgSEmTU5X+thwAIZMDTDc5yQgjNSCE5rnco7BprdDWrXmhhTnb1VbjIxdoBS8J/HKyfR9moENE3Bt+A1Jt5TPLse5fdJCvA19r4HLaGbpag5DEoQP9ikyecSOU3DP8kVgmgZF4K9nN12PafVQ335uMWKUJillV/Gb+larKtEmvnsyVcIw+7QDNArSnWUTmsfxIFHuYapXAaOC8EhhP0kzzVOwTiwDGwC28Bmez0aNEHYq0SlnIzBkAoaMpKRRgdMh7749cvI9AoTSMjgNXseoRsCQs16yj0dUUT970F7BZ3f3fwSol1y6tGBrK0oH4Wi4x7eL8PICv4Pko9V4XnwIDmFrve9nmQd8+BJ1pYCLuT1T0gFFVuuGUBaeAOUT3Oe6+ksI3LhWT4aB6tm9B8TRaJDjtQEE1NhT89z95oINT+0u+NK5hXDoxuRgsNzcp7FPwZMRY1bhM3UYHHOBY+5cVBDRgPMbrWc+UNYCYx5TBMO6Dm+EKwH68ACMECznZnyqCZcRuWmAMFguk4gWsrvAAAAAElFTkSuQmCC">
+  <meta name="description" content="Spotify is a digital music service that gives you access to millions of songs.">
+    <link rel="stylesheet" href="./playlist-style.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main-conatiner">
+      <!-- ----------------------- -->
+      <!-- side-bar-ablbum  -->
+      <div class="side-bar">
+        <div class="side-bar-content">
+          <div class="nav-item nav-line-seperation">
+            <!-- spotify logo -->
+            <div class="spotify-logo">
+              <img src="./Icons/Spotify logo.png" alt="Spotify lo" />
+            </div>
+
+            <!-- home-search-library -->
+            <div class="home-section-album">
+              <div class="logo-flex">
+                <img src="./Icons/Home.png" alt="" />
+                <p>Home</p>
+              </div>
+
+              <div class="logo-flex">
+                <img src="./Icons/Search.png" alt="search-icon" />
+                <p>search</p>
+              </div>
+
+              <div class="logo-flex">
+                <img
+                  src="./Icons/Your library.png"
+                  alt="Music library section" />
+                <p>Your Library</p>
+              </div>
+            </div>
+            <!-- playlist-section -->
+            <div class="nav-item nav-line-seperation playlist-section-album">
+              <p>Playlist</p>
+              <div class="logo-flex">
+                <img src="./Icons/plus.png" alt="add button" />
+                <p>Create Playlist</p>
+              </div>
+              <div class="logo-flex">
+                <img src="./Icons/purpleheart.png" alt="liked songs" />
+                <p>Liked Songs</p>
+              </div>
+            </div>
+          </div>
+          <!-- album-art -->
+
+          <div class="album-art">
+            <img src="./Icons/imgs/album art.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------- -->
+      <!-- main-content-album -->
+      <div class="main-album">
+        <!-- main album head -->
+        <div class="main-album-pop-right-now">
+          <div class="pop-img">
+            <img src="./Icons/imgs/pop-rn.png" alt="pop-img">
+          </div>
+          <div class="pop-content">
+            <p>Playlist</p>
+            <h1>POP RIGHT NOW</h1>
+            <P>Lorem ipsum dolor sit amet.</P>
+            <p><span>Spotify. </span> 860,656 likes. 100 songs</p>
+          </div>
+        </div>
+        <!-- play-like dot row -->
+        <div class="play-like-row">
+          <div><img src="./Icons/play.png" alt="play button" class="play-like-button"></div>
+          <div> <img src="./Icons/heart.png" alt="play button"
+           class="play-like-button"></div>
+           <div>  <pre> ...</pre></div> 
+        </div>
+
+        <!-- main-album-song-list -->
+        <div class="song-list">
+          <div class="song-detail">
+            <div class="poster-name">
+                  <h5>1</h5>
+                <img src="./Icons/list img.png" alt="song poster">
+                <div class="singer-name">
+                  <h5>We are good</h5>
+                  <h6>Dua lipa</h6>
+                </div>
+            </div>
+            <div class="album-name">
+              <p>Future Nostalgia (The Moonlight Edition)</p>
+            </div>
+            <div class="date-added">
+               <p>11-7-2023</p>
+            </div>
+            <div class="duration">
+              <p>2:44  <span id="dot">..</span> </p>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="song-detail">
+            <div class="poster-name">
+                <h5>2</h5>
+                <img src="./Icons/list img.png" alt="song poster">
+                <div class="singer-name">
+                  <h5>We are good</h5>
+                  <h6>Dua lipa</h6>
+                </div>
+            </div>
+            <div class="album-name">
+              <p>Future Nostalgia (The Moonlight Edition)</p>
+            </div>
+            <div class="date-added">
+               <p>11-7-2023</p>
+            </div>
+            <div class="duration">
+              <p>2:44  .. </p>
+            </div>
+          </div>
+
+          <!-- 3 -->
+
+          <div class="song-detail">
+            <div class="poster-name">
+                <h5>3</h5>
+                <img src="./Icons/list img.png" alt="song poster">
+                <div class="singer-name">
+                  <h5>We are good</h5>
+                  <h6>Dua lipa</h6>
+                </div>
+            </div>
+            <div class="album-name">
+              <p>Future Nostalgia (The Moonlight Edition)</p>
+            </div>
+            <div class="date-added">
+               <p>11-7-2023</p>
+            </div>
+            <div class="duration">
+              <p>2:44  .. </p>
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="song-detail">
+            <div class="poster-name">
+                <h5>4</h5>
+                <img src="./Icons/list img.png" alt="song poster">
+                <div class="singer-name">
+                  <h5>We are good</h5>
+                  <h6>Dua lipa</h6>
+                </div>
+            </div>
+            <div class="album-name">
+              <p>Future Nostalgia (The Moonlight Edition)</p>
+            </div>
+            <div class="date-added">
+               <p>11-7-2023</p>
+            </div>
+            <div class="duration">
+              <p>2:44  .. </p>
+            </div>
+          </div>
+
+          <!-- 5 -->
+          <div class="song-detail">
+            <div class="poster-name">
+                <h5>5</h5>
+                <img src="./Icons/list img.png" alt="song poster">
+                <div class="singer-name">
+                  <h5>We are good</h5>
+                  <h6>Dua lipa</h6>
+                </div>
+            </div>
+            <div class="album-name">
+              <p>Future Nostalgia (The Moonlight Edition)</p>
+            </div>
+            <div class="date-added">
+               <p>11-7-2023</p>
+            </div>
+            <div class="duration">
+              <p>2:44  .. </p>
+            </div>
+          </div>
+
+          <!-- 6 -->
+          <div class="song-detail">
+            <div class="poster-name">
+                <h5>6</h5>
+                <img src="./Icons/list img.png" alt="song poster">
+                <div class="singer-name">
+                  <h5>We are good</h5>
+                  <h6>Dua lipa</h6>
+                </div>
+            </div>
+            <div class="album-name">
+              <p>Future Nostalgia (The Moonlight Edition)</p>
+            </div>
+            <div class="date-added">
+               <p>11-7-2023</p>
+            </div>
+            <div class="duration">
+              <p>2:44  .. </p>
+            </div>
+          </div>
+
+          <!-- 7 -->
+          <div class="song-detail">
+            <div class="poster-name">
+                <h5>7</h5>
+                <img src="./Icons/list img.png" alt="song poster">
+                <div class="singer-name">
+                  <h5>We are good</h5>
+                  <h6>Dua lipa</h6>
+                </div>
+            </div>
+            <div class="album-name">
+              <p>Future Nostalgia (The Moonlight Edition)</p>
+            </div>
+            <div class="date-added">
+               <p>11-7-2023</p>
+            </div>
+            <div class="duration">
+              <p>2:44  .. </p>
+            </div>
+          </div>
+
+
+          <!-- 8 -->
+
+          <div class="song-detail">
+            <div class="poster-name">
+                <h5>8</h5>
+                <img src="./Icons/list img.png" alt="song poster">
+                <div class="singer-name">
+                  <h5>We are good</h5>
+                  <h6>Dua lipa</h6>
+                </div>
+            </div>
+            <div class="album-name">
+              <p>Future Nostalgia (The Moonlight Edition)</p>
+            </div>
+            <div class="date-added">
+               <p>11-7-2023</p>
+            </div>
+            <div class="duration">
+              <p>2:44  .. </p>
+            </div>
+          </div>
+
+           <!-- 9 -->
+
+          <div class="song-detail">
+            <div class="poster-name">
+                <h5>8</h5>
+                <img src="./Icons/list img.png" alt="song poster">
+                <div class="singer-name">
+                  <h5>We are good</h5>
+                  <h6>Dua lipa</h6>
+                </div>
+            </div>
+            <div class="album-name">
+              <p>Future Nostalgia (The Moonlight Edition)</p>
+            </div>
+            <div class="date-added">
+               <p>11-7-2023</p>
+            </div>
+            <div class="duration">
+              <p>2:44  .. </p>
+            </div>
+          </div>
+
+           <!-- 10 -->
+
+          <div class="song-detail">
+            <div class="poster-name">
+                <h5>8</h5>
+                <img src="./Icons/list img.png" alt="song poster">
+                <div class="singer-name">
+                  <h5>We are good</h5>
+                  <h6>Dua lipa</h6>
+                </div>
+            </div>
+            <div class="album-name">
+              <p>Future Nostalgia (The Moonlight Edition)</p>
+            </div>
+            <div class="date-added">
+               <p>11-7-2023</p>
+            </div>
+            <div class="duration">
+              <p>2:44  .. </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    <!-- --------------------------- -->
+    <!-- bottom-music player -->
+    <div class="play-music-area">
+      <div class="song-playing">
+        <img
+          src="./Icons/imgs/playing-img.png"
+          alt="song-playing"
+          class="music-art" />
+        <div class="song-playing-name">
+          <h4>Dreaming on</h4>
+          <p>NEFFIX</p>
+        </div>
+        <img src="./Icons/heart.png" alt="like song" />
+      </div>
+      <div class="song-control">
+        <div class="song-control-upper">
+          <img src="./Icons/shuffle.png" alt="loop" id="loop" />
+          <img src="./Icons/previous.png" alt="previous" />
+          <img src="./Icons/play.png" alt="play" id="play-button" />
+          <img src="./Icons/next.png" alt="next" />
+          <img src="./Icons/loop.png" alt="loop" id="loop" />
+        </div>
+        <div class="song-control-lower">
+          <p>1:11</p>
+          <img src="./Icons/big-music-bar.png" alt="song-scroll" />
+          <p>3.45</p>
+        </div>
+      </div>
+      <div class="song-extra-control">
+        <img src="./Icons//microphone.png" alt="loop" id="lyrics" />
+        <img src="./Icons/query-queue.png" alt="query" />
+        <img src="./Icons/carbon_laptop.png" alt="link-debice" />
+        <img src="./Icons/speaker-white.png" alt="mute" />
+        <img src="./Icons/volume-bar.png" alt="volume" id="volume" />
+        <img src="./Icons/pip.png" alt="streath scrren" />
+      </div>
+    </div>
+    <div class="green-notice">
+      <img src="Icons/speaker-black.png" alt="">
+      <h3>Listening on Lenovo Ideapad L340</h3>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/0b381e01ab.js"
+      crossorigin="anonymous"></script>
+  </body>
+</html>

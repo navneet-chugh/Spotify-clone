@@ -1,4 +1,4 @@
-### Spotify-clone
+# Spotify-clone
 @author "Navneet Chugh"
 
 
